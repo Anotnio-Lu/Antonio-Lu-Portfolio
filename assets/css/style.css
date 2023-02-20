@@ -6,3 +6,35 @@ body {
     background-color: #dad7cd;
 }
 
+.Top-header {
+    padding: 50px 0px;
+    background-color: #588157;
+    font-size: 25px;
+    display: flex;
+}
+
+.Inner-header-div{
+    align-items: center;
+    margin: auto;
+    width: 900px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav{
+    float: right;
+    display: flex;
+    position: relative;
+    right: 55px;
+    top: 7px;
+}
+
+header nav a{
+    margin: 0 3%;
+    position: relative;
+    bottom: 7px;
+    white-space: nowrap;
+}
