@@ -1,5 +1,5 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Lexend Deca",sans-serif;
 }
 
 body {
@@ -39,6 +39,23 @@ header nav a{
     white-space: nowrap;
 }
 
+.intro{
+    margin: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 100px 0px;
+}
+
+.intro p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.intro h1{
+    font-size: 50px;
+}
+
 @media screen and (max-width: 1200px) {
     .Top-header {
         width: auto;
@@ -47,6 +64,10 @@ header nav a{
         margin-left: 12.5%;
         margin-right: 10%;
     }
+    .intro{
+        width: 58%;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
