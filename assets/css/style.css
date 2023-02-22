@@ -78,7 +78,7 @@ header nav a{
 
 .Portfolio-section{
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -116,6 +116,64 @@ header nav a{
 .Card header {
     text-align: center;
     margin-bottom: 22px;
+}
+
+.contact-section{
+    /* text-align: center; */
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.contact-section h2{
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.contact-section p{
+    margin-bottom: 50px;
+}
+
+.form{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #2b9fa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+
+footer{
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 229px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
 }
 
 
