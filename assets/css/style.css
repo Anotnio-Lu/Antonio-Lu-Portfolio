@@ -7,12 +7,12 @@ html {
   }
 
 body {
-    background-color: #dad7cd;
+    background-color: #ccc5b9;
 }
 
 .Top-header {
     padding: 35px 0px;
-    background-color: #588157;
+    background-color: #252422;
     font-size: 25px;
     display: flex;
 }
@@ -43,6 +43,10 @@ header nav a{
     white-space: nowrap;
     font-size: 20px;
 }
+
+header nav a:hover {
+    color: #eb5e28;
+  }
 
 .intro{
     margin: auto;
@@ -100,9 +104,23 @@ header nav a{
     margin-bottom: 22px;
 }
 
+.First-Project-content a{
+    text-decoration: none;
+}
+
+.First-Project-content a:hover{
+    color: #eb5e28;
+}
+
 .First-Project-image img {
     width: 100%;
-  }
+    transition: 0.3s;
+}
+
+.First-Project-image img:hover {
+    transform: scale(1.03);
+}
+
 
 .Other-Projects{
     display: flex;
@@ -138,6 +156,15 @@ header nav a{
     text-align: left;
 }
 
+.contact-section{
+    margin: auto;
+    margin-top: 350px;
+    padding-bottom: 360px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -156,7 +183,7 @@ input[type=email] {
 
 input[type=submit] {
     width: 170px;
-    background-color: #2b9fa1;
+    background-color: #403d39;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -166,16 +193,17 @@ input[type=submit] {
     float: right;
   }
 
-
-.contact-section{
-    margin: auto;
-    margin-top: 350px;
-    padding-bottom: 360px;
-    width: 700px;
-    display: flex;
-    flex-direction: column;
+input[type=submit]:hover {
+    background-color: #588157;
 }
 
+input[type=text]:hover {
+    background-color: #dddddd;
+}
+
+input[type=email]:hover {
+    background-color: #dddddd;
+}
 
 @media screen and (max-width: 1200px) {
     .Top-header {
@@ -191,6 +219,7 @@ input[type=submit] {
     .About-section{
         width: 50%;
         padding: 0px 0px;
+        padding-top: 50px;
     }
     .Portfolio-section{
         width: 58%;
