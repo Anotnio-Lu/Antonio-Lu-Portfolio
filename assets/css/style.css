@@ -2,6 +2,10 @@
     font-family:"Andale Mono", AndaleMono, monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #dad7cd;
 }
@@ -43,7 +47,7 @@ header nav a{
 .intro{
     margin: auto;
     margin-top: 249px;
-    margin-bottom: 550px;
+    margin-bottom: 500px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -60,11 +64,11 @@ header nav a{
 
 .About-section{
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     width: 700px;
     display: flex;
     flex-direction: column;
-    padding: 0px 50px 0px 50px;
+    padding: 50px 50px 0px 50px;
     align-items: center;
 }
 
@@ -81,6 +85,7 @@ header nav a{
     margin-bottom: 100px;
     width: 700px;
     display: flex;
+    padding-top: 50px;
     flex-direction: column;
     align-items: center;  
 }
@@ -118,11 +123,6 @@ header nav a{
     margin-bottom: 22px;
 }
 
-.contact-section{
-    /* text-align: center; */
-    margin-top: 70px;
-    margin-bottom: 100px;
-}
 
 .contact-section h2{
     margin-bottom: 60px;
@@ -155,7 +155,7 @@ input[type=email] {
 }
 
 input[type=submit] {
-    width: 30%;
+    width: 170px;
     background-color: #2b9fa1;
     color: white;
     padding: 14px 20px;
@@ -167,10 +167,10 @@ input[type=submit] {
   }
 
 
-footer{
+.contact-section{
     margin: auto;
-    margin-top: 200px;
-    padding-bottom: 229px;
+    margin-top: 350px;
+    padding-bottom: 360px;
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,13 @@ footer{
     }
     .Portfolio-section{
         width: 58%;
+    }
+    .contact-section{
+        width: 60%;
+    }
+    input[type=submit] {
+        float: none;
+
     }
 
 }
