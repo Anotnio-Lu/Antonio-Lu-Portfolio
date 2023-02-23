@@ -103,28 +103,28 @@ header nav a:hover {
     font-size: 50px;
 }
 
-.First-Project-content{
+.Project-content{
     text-align: center;
     margin-bottom: 22px;
 }
 
-.First-Project-content a{
+.Project-content a{
     text-decoration: none;
+    color: black;
 }
 
-.First-Project-content a:hover{
+.Project-content a:hover{
     color: #eb5e28;
 }
 
-.First-Project-image img {
+.Project-image img {
     width: 100%;
     transition: 0.3s;
 }
 
-.First-Project-image img:hover {
+.Project-image img:hover {
     transform: scale(1.03);
 }
-
 
 .Other-Projects{
     display: flex;
@@ -138,11 +138,6 @@ header nav a:hover {
 .Card img {
     width: 302px;
     height: 183px;
-}
-
-.Card header {
-    text-align: center;
-    margin-bottom: 22px;
 }
 
 
