@@ -84,6 +84,10 @@ header nav a:hover {
     font-size: 50px;
 }
 
+.About-section p{
+    margin-bottom: 20px;
+}
+
 .Portfolio-section{
     margin: auto;
     margin-bottom: 100px;
@@ -255,5 +259,9 @@ input[type=email]:hover {
     }
     .Name {
         font-size: 35px;
+    }
+
+    .Portfolio-section h2{
+        text-align: center;
     }
 }
