@@ -1,0 +1,267 @@
+* {
+    font-family:"Andale Mono", AndaleMono, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #ccc5b9;
+}
+
+.Top-header {
+    padding: 35px 0px;
+    background-color: #252422;
+    font-size: 25px;
+    display: flex;
+}
+
+.Inner-header-div{
+    align-items: center;
+    margin: auto;
+    width: 900px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav{
+    float: right;
+    display: flex;
+    position: relative;
+    right: 55px;
+    top: 7px;
+}
+
+header nav a{
+    margin: 0 3%;
+    position: relative;
+    bottom: 2px;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: #eb5e28;
+  }
+
+.intro{
+    margin: auto;
+    margin-top: 249px;
+    margin-bottom: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p{
+    margin-top: 32px;
+    margin-bottom: 25px;
+}
+
+.intro h1{
+    font-size: 50px;
+}
+
+.About-section{
+    margin: auto;
+    margin-bottom: 150px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0px 50px;
+    align-items: center;
+}
+
+.About-section img{
+    padding: 50px 0px 100px 0px;
+}
+
+.About-section h2{
+    font-size: 50px;
+}
+
+.About-section p{
+    margin-bottom: 20px;
+}
+
+.Portfolio-section{
+    margin: auto;
+    margin-bottom: 100px;
+    width: 700px;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.Portfolio-section h2{
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.First-Project-content{
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.First-Project-content a{
+    text-decoration: none;
+}
+
+.First-Project-content a:hover{
+    color: #eb5e28;
+}
+
+.First-Project-image img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.First-Project-image img:hover {
+    transform: scale(1.03);
+}
+
+
+.Other-Projects{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 75px 93px;
+}
+
+.Card img {
+    width: 302px;
+    height: 183px;
+}
+
+.Card header {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+
+.contact-section h2{
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.contact-section p{
+    margin-bottom: 50px;
+}
+
+.form{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact-section{
+    margin: auto;
+    margin-top: 350px;
+    padding-bottom: 360px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 170px;
+    background-color: #403d39;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+input[type=submit]:hover {
+    background-color: #588157;
+}
+
+input[type=text]:hover {
+    background-color: #dddddd;
+}
+
+input[type=email]:hover {
+    background-color: #dddddd;
+}
+
+@media screen and (max-width: 1200px) {
+    .Top-header {
+        width: auto;
+    }
+    .Inner-header-div{
+        margin-left: 12.5%;
+        margin-right: 10%;
+    }
+    .intro{
+        width: 58%;
+    }
+    .About-section{
+        width: 50%;
+        padding: 0px 0px;
+        padding-top: 50px;
+    }
+    .Portfolio-section{
+        width: 58%;
+    }
+    .contact-section{
+        width: 60%;
+    }
+    input[type=submit] {
+        float: none;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .Top-header {
+        width: auto;
+    }
+    .Inner-header-div{
+        margin-left: 12.5%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        margin-top: 16px;
+    }
+    header nav a{
+        margin: 7px 0;
+    }
+    .Name {
+        font-size: 35px;
+    }
+
+    .Portfolio-section h2{
+        text-align: center;
+    }
+}
